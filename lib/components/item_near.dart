@@ -11,14 +11,39 @@ class ItemNear extends StatelessWidget {
       padding: const EdgeInsets.all(10),
       child: GestureDetector(
         child: Container(
-          height: 200,
-          width: 150,
+            height: 200,
+            width: 150,
             decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(10),
+                borderRadius: BorderRadius.circular(10),
                 image: DecorationImage(
                     image: AssetImage(product.pathImage), fit: BoxFit.cover)),
             child: Column(
-              children: [],
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.end,
+                    children: [
+                      Container(
+                        decoration: BoxDecoration(
+                          color: Colors.grey,
+                            borderRadius: BorderRadius.circular(10)),
+                        child: Row(children: const [
+                          Icon(Icons.location_on_outlined),
+                          Text("1,8 Km")
+                        ]),
+                      )
+                    ],
+                  ),
+                ),
+                Padding(padding: const EdgeInsets.all(10), child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                  Text(product.name, style: const TextStyle(fontSize: 14, fontWeight: FontWeight.bold, color: Colors.white),),
+                  Text(product.address, style: const TextStyle(fontSize: 12, color: Colors.white),)
+                ]),)
+              ],
             )),
       ),
     );
