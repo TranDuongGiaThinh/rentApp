@@ -6,8 +6,8 @@ class ListNear extends StatelessWidget {
   ListNear({super.key});
 
   final List<Product> products = [
-    Product(id: 1, pathImage: "asset/img1.png", name: "Orchad House", price: "2.500.000.000", bedrooms: 6, bathroom: 4, address: "Đường Nguyễn Tất Thành"),
-    Product(id: 2, pathImage: "asset/img2.png", name: "The Hollies House", price: "2.000.000", bedrooms: 5, bathroom: 2, address: "Đường Quang Trung")
+    Product(id: 1, pathImage: "asset/img1.png", name: "Orchad House", price: "2.500.000.000", bedrooms: 6, bathroom: 4, address: "Đường Nguyễn Tất Thành", owner: "Gia Thịnh"),
+    Product(id: 2, pathImage: "asset/img2.png", name: "The Hollies House", price: "2.000.000", bedrooms: 5, bathroom: 2, address: "Đường Quang Trung", owner: "Gia Thịnh")
   ];
 
   @override

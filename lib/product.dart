@@ -6,6 +6,7 @@ class Product {
   int bedrooms;
   int bathroom;
   String address;
+  String owner;
 
   Product({
     required this.id,
@@ -15,5 +16,6 @@ class Product {
     required this.bedrooms,
     required this.bathroom,
     required this.address,
+    required this.owner,
   });
 }
