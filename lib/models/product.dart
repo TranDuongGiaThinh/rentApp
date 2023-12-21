@@ -7,7 +7,6 @@ class Product {
   int bedrooms;
   int bathroom;
   String address;
-  String owner;
   String description;
 
   Product({
@@ -19,7 +18,6 @@ class Product {
     required this.bedrooms,
     required this.bathroom,
     required this.address,
-    required this.owner,
     required this.description,
   });
 }

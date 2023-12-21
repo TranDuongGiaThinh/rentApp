@@ -20,7 +20,6 @@ class _ListProductState extends State<ListProduct> {
         bedrooms: 6,
         bathroom: 4,
         address: "Đường Nguyễn Tất Thành",
-        owner: "Gia Thịnh",
         description:
             "The 3 level house that has a modern design, has a large pool and a garage that fits up to four cars..."),
     Product(
@@ -32,7 +31,6 @@ class _ListProductState extends State<ListProduct> {
         bedrooms: 5,
         bathroom: 2,
         address: "Đường Quang Trung",
-        owner: "Gia Thịnh",
         description:
             "The 3 level house that has a modern design, has a large pool and a garage that fits up to four cars...")
   ];
