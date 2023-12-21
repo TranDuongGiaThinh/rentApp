@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mevivu_test/detail_product.dart';
+import 'package:mevivu_test/screens/detail_product.dart';
 import 'package:mevivu_test/models/product.dart';
 
 class Item extends StatelessWidget {
