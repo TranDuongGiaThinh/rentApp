@@ -8,6 +8,7 @@ class Product {
   int bathroom;
   String address;
   String description;
+  List<String> images;
 
   Product({
     required this.id,
@@ -19,5 +20,6 @@ class Product {
     required this.bathroom,
     required this.address,
     required this.description,
+    required this.images
   });
 }
