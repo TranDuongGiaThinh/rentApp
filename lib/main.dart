@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mevivu_test/home_screen.dart';
+import 'package:mevivu_test/screens/home_screen.dart';
 
 void main() {
   runApp(const MyApp());
