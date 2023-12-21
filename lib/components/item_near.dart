@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mevivu_test/detail_product.dart';
-import 'package:mevivu_test/product.dart';
+import 'package:mevivu_test/models/product.dart';
 
 class ItemNear extends StatelessWidget {
   const ItemNear({super.key, required this.product});
